@@ -5,7 +5,7 @@ RUN R -e 'install.packages(c(\
               "shiny", \
               "shinythemes", \
               "plotly"), \
-            repos="https://packagemanager.rstudio.com/cran/__linux__/focal/2023-07-31"\
+            repos="https://packagemanager.rstudio.com/cran/__linux__/focal/latest"\
           )'
 WORKDIR /home/shinyusr
 COPY app.R app.R 
